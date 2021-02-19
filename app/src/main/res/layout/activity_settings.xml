@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_red_background"
+    android:orientation="vertical"
+    tools:context=".activitys.SettingsActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/color_red_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/settings"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+        <ImageView android:id="@+id/im_back"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="29dp"
+                   android:background="@mipmap/back"/>
+    </RelativeLayout>
+
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="@drawable/bg_shadow_line"/>
+
+    <View android:layout_width="match_parent"
+          android:layout_marginTop="20dp"
+          android:layout_height="0.5dp"
+          android:background="@color/white"/>
+    <RelativeLayout
+        android:id="@+id/rl_sound_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_red_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/need_sound"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/im_set_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/switch_off"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/white"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_wake_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_red_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/need_wake_lock"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/im_set_wake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/switch_off"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_screen_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_red_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/need_screen_light"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/im_set_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/switch_off"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_replay_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_red_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/need_replay"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/im_set_replay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/switch_off"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout android:id="@+id/rl_in_put_replay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:visibility="gone">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="10dp"
+                   android:background="@drawable/bg_shadow_line"/>
+
+
+        <EditText android:id="@+id/et_put_replay"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="10dp"
+                  android:layout_marginTop="10dp"
+                  android:background="@null"
+                  android:backgroundTint="@color/color_gold2"
+                  android:gravity="center"
+                  android:hint="@string/input_your_replay"
+                  android:textSize="12sp"/>
+    </RelativeLayout>
+
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_boss_come_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_red_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/need_boss_name"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+            <ImageButton
+                android:id="@+id/im_boss_come_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/switch_off"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout android:id="@+id/rl_in_put_boss_come_in"
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="10dp"
+                   android:background="@drawable/bg_shadow_line"/>
+
+        <EditText android:id="@+id/et_put_boss"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="10dp"
+                  android:layout_marginTop="10dp"
+                  android:background="@null"
+                  android:backgroundTint="@color/color_gold2"
+                  android:gravity="center"
+                  android:hint="@string/input_your_boss_name"
+                  android:textSize="12sp"/>
+    </RelativeLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">上帝之手</string>
+    <string name="description">权限描述：\n\n*此权限能让我们帮助您点击和监听通知栏信息\n\n注意！\n\n*锁屏自动抢红包功能需要您不设置解锁密码，否则屏幕无法开启\n\n
+        *当首页正中央的按钮变为金色的时候证明应用处于开启状态，银灰色未开启点击进入找到产品开启权限即可</string>
+    <string name="label">上帝之手</string>
+    <string name="set_service">点击设置权限开启</string>
+    <string name="app_exit_notify_text">再按一次退出</string>
+    <string name="bt_close">開</string>
+    <string name="bt_open">關</string>
+    <string name="close_service">找到[上帝之手]把开关关闭</string>
+    <string name="open_service">找到[上帝之手]把开关打开</string>
+    <string name="open_success">您已成功开启神器！</string>
+    <string name="app_is_running">正在帮您抢红包...</string>
+    <string name="app_is_gone">点击上面按钮开启服务</string>
+    <string name="need_replay">自动回复</string>
+    <string name="settings">设置页面</string>
+    <string name="need_sound">声音提醒</string>
+    <string name="input_your_replay">输入回复语</string>
+    <string name="history">红包记录</string>
+    <string name="input_your_vip">输入定制语句</string>
+    <string name="all_times">累计抢到红包</string>
+    <string name="ge">个</string>
+    <string name="all_money">累计获得总金额</string>
+    <string name="yuan">元</string>
+    <string name="company">上帝之手红包神器</string>
+    <string name="say_title">恭喜发财</string>
+    <string name="need_wake_lock">锁屏开关</string>
+    <string name="close_success">您已关闭神器</string>
+    <string name="need_screen_light">屏幕常亮</string>
+    <string name="input_your_boss_name">输入老板姓名</string>
+    <string name="need_boss_name">老板上线</string>
+</resources>

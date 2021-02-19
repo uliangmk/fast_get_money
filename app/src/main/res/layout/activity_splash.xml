@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red700"
+    tools:context=".activitys.SplashActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <com.eftimoff.androipathview.PathView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pathView"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            app:pathColor="@android:color/white"
+            app:pathWidth="5dp"
+            app:svg="@raw/dog"/>
+        <TextView android:id="@+id/tv_splash"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:textColor="@color/white"
+                  android:textSize="25sp"/>
+    </LinearLayout>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_alignParentBottom="true"
+               android:background="@mipmap/splash"
+               android:layout_height="wrap_content"/>
+</RelativeLayout>
